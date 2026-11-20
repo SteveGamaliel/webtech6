@@ -1,0 +1,110 @@
+<style>
+
+  .site-nav {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 14px;
+    background: #102a43;
+    text-align: right;
+  }
+
+  .site-nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+
+ 
+  .positioning-heading {
+    position: static;
+    text-align: center;
+  }
+
+
+  .finance-image {
+    position: relative;
+    height: 350px;
+    margin: 20px auto;
+    background:
+      linear-gradient(rgb(0 0 0 / 30%), rgb(0 0 0 / 30%)),
+      url("finance.jpg") center / cover no-repeat;
+  }
+
+
+  .image-label {
+    position: absolute;
+    z-index: 2;
+    padding: 10px;
+    color: white;
+    background: rgb(16 42 67 / 80%);
+  }
+
+  .top-left {
+    top: 12px;
+    left: 12px;
+  }
+
+  .top-right {
+    top: 12px;
+    right: 12px;
+  }
+
+  .bottom-left {
+    bottom: 12px;
+    left: 12px;
+  }
+
+  .bottom-right {
+    right: 12px;
+    bottom: 12px;
+  }
+
+  .center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+  }
+
+
+  .relative-label {
+    position: relative;
+    top: 6px;
+    display: inline-block;
+    padding: 8px;
+    background: #fbd38d;
+  }
+
+  
+  .fixed-link {
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    z-index: 20;
+    padding: 12px;
+    color: white;
+    background: #087e8b;
+    text-decoration: none;
+  }
+</style>
+
+<nav class="site-nav">
+  <a href="#media">Media</a>
+  <a href="practicum%203.html">Sign Up</a>
+</nav>
+
+<h2 class="positioning-heading">Finance Bridge</h2>
+<p class="positioning-heading">
+  <span class="relative-label">Finance Planning and Investment Advisory</span>
+</p>
+
+<div class="finance-image" id="media">
+  <div class="image-label top-left">Financial Planning</div>
+  <div class="image-label top-right">Investment Advice</div>
+  <div class="image-label bottom-left">Plan for your future</div>
+  <div class="image-label bottom-right">Finance Bridge</div>
+  <div class="image-label center">Build your financial future</div>
+</div>
+
+<a class="fixed-link" href="practicum%203.html">Get Started</a>
